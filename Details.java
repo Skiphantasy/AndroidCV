@@ -16,9 +16,9 @@ public class Details extends Activity {
     String[] titles;
     private Person person;
     ArrayList<String> skills;
-    String[][]multi = new String[4][];
     ListView listView;
     int[] images = {R.drawable.tanita, R.drawable.education, R.drawable.work_logo, R.drawable.skills};
+    String[][]multi = new String[images.length][];
     MyAdapter adapter;
 
     protected void onCreate(Bundle savedInstanceState) {
